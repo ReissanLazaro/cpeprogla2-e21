@@ -4,11 +4,12 @@
 using namespace std;
 
 int main(){
-    ifstream f("sample (2).txt");
+    ifstream f("input.txt");
     int num, sum=0;
     while(f>>num){
 	}
-for (int x=0; x<num; x++) {
+	
+	for (int x=0; x<num; x++) {
           if ((x % 3 == 0) || (x % 5 == 0)) 
                sum += x;
     }
